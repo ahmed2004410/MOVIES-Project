@@ -1,0 +1,77 @@
+
+-- ================================
+-- 🎬 مشاهدات (Views)
+-- ================================
+
+-- #Average Watch Time = AVERAGE(Views[WatchTime])
+
+-- #Total views = SUM(Views[ViewID])
+
+-- #Views per Movie = COUNTROWS(RELATEDTABLE(Views))
+
+-- #Watch Time per User = 
+CALCULATE(SUM(Views[WatchTime]),ALLEXCEPT(Views, Views[UserID]))
+
+-- ================================
+-- 👤 المستخدمين (Users)
+-- ================================
+
+-- #Active Users = 
+CALCULATE(
+    DISTINCTCOUNT(Views[UserID]),
+    FILTER(Views, NOT(ISBLANK(Views[MovieID])))
+)
+
+-- #Repeat Viewers = 
+CALCULATE (
+    DISTINCTCOUNT(Views[UserID]),
+    FILTER (VALUES(Views[UserID]),
+    CALCULATE(DISTINCTCOUNT(Views[MovieID])) > 1))
+
+-- #Total Users = COUNTROWS(Users)
+
+-- ================================
+-- 🍿 الأفلام (Movies)
+-- ================================
+
+-- #Total Movies = COUNTROWS(Movies)
+
+-- #Top  Movie by Watched = CALCULATE (
+    MAX ( Movies[Title] ),
+    TOPN(1, Movies, [#Views per Movie], DESC))
+ 
+-- #Top  Movie by Rated = CALCULATE (
+    MAX ( Movies[Title] ),
+    TOPN(1, Movies, [#Average Rating per Movie], DESC))
+
+-- #Avg Movie Duration = AVERAGE(Movies[Duration])
+
+-- ================================
+-- ⭐ التقييمات (Ratings)
+-- ================================
+
+-- #Average Rating = AVERAGE(Ratings[Rating]) 
+
+-- #Average Rating per Movie = CALCULATE(
+    AVERAGE(Ratings[Rating]))
+
+-- #count of rating = COUNT(Ratings[RatingID])
+
+-- ================================
+-- 💳 الاشتراكات (Subscriptions)
+-- ================================
+
+-- #Active Subscriptions = CALCULATE(
+    COUNTROWS(Subscriptions),
+    FILTER(Subscriptions, Subscriptions[EndDate] >= TODAY()))
+
+-- #New Subscriptions Monthly = 
+CALCULATE(
+    COUNTROWS(Subscriptions),
+    DATESINPERIOD('Date'[Date], MAX('Date'[Date]), -1, MONTH)))
+
+-- #Subscription Duration (Avg) = AVERAGEX(
+    Subscriptions,DATEDIFF(Subscriptions[StartDate], 
+     COALESCE(Subscriptions[EndDate], TODAY()), DAY))
+
+

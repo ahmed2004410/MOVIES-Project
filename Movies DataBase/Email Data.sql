@@ -1,0 +1,121 @@
+
+INSERT INTO [dbo].[Emails] (UserID,Email_1,Email_2)
+VALUES
+  (132,'et.tristique.pellentesque@icloud.com','purus@hotmail.net'),
+  (163,'lacus.varius@aol.org','donec@icloud.edu'),
+  (158,'maecenas@outlook.edu','sit.amet.dapibus@aol.ca'),
+  (150,'lorem.auctor@google.org','vestibulum.neque@icloud.org'),
+  (105,'dictum.mi.ac@google.com','donec.luctus@google.edu'),
+  (197,'eu.ligula@yahoo.couk','quis.tristique@protonmail.edu'),
+  (168,'curabitur.ut@outlook.couk','ornare.elit@google.com'),
+  (195,'ut.aliquam@aol.org','at@google.com'),
+  (131,'dolor.elit.pellentesque@protonmail.couk','amet@outlook.edu'),
+  (111,'sed.diam.lorem@hotmail.couk','ut.lacus@protonmail.couk');
+INSERT INTO [dbo].[Emails] (UserID,Email_1,Email_2)
+VALUES
+  (150,'mollis.phasellus@google.net','curabitur.dictum@google.com'),
+  (128,'sed.eu@aol.edu','non.luctus@aol.net'),
+  (168,'leo@aol.org','urna.ut@icloud.org'),
+  (137,'luctus.ipsum@protonmail.edu','nam.tempor@yahoo.ca'),
+  (197,'fermentum.fermentum@protonmail.net','dui.nec@yahoo.net'),
+  (138,'convallis@yahoo.edu','amet.ante@outlook.edu'),
+  (102,'massa@aol.couk','gravida@yahoo.edu'),
+  (107,'adipiscing.enim@google.com','duis.a@aol.org'),
+  (111,'quis@protonmail.com','quis@outlook.net'),
+  (167,'erat.neque@yahoo.couk','et.euismod@yahoo.com');
+INSERT INTO [dbo].[Emails] (UserID,Email_1,Email_2)
+VALUES
+  (174,'est.ac@yahoo.ca','nunc@protonmail.couk'),
+  (178,'et@icloud.couk','nec.tempus.mauris@aol.org'),
+  (193,'dictum@hotmail.org','vel.faucibus.id@protonmail.com'),
+  (114,'eros.nec@yahoo.org','pellentesque.tincidunt@icloud.couk'),
+  (192,'nulla.facilisi@yahoo.org','aliquam.adipiscing@outlook.org'),
+  (162,'mauris@outlook.couk','quisque.porttitor@aol.net'),
+  (148,'nam.porttitor@hotmail.org','netus.et@protonmail.org'),
+  (141,'cum.sociis@protonmail.ca','massa@outlook.com'),
+  (167,'tortor.nibh.sit@icloud.ca','nonummy.ultricies.ornare@google.org'),
+  (145,'duis@aol.edu','habitant.morbi@outlook.net');
+INSERT INTO [dbo].[Emails] (UserID,Email_1,Email_2)
+VALUES
+  (184,'vitae.sodales.nisi@hotmail.org','fringilla.euismod@google.com'),
+  (161,'sit.amet.lorem@protonmail.com','sit.amet.lorem@icloud.couk'),
+  (144,'sem@protonmail.org','eu.tellus.eu@google.net'),
+  (156,'aenean@yahoo.ca','magna.ut.tincidunt@protonmail.ca'),
+  (112,'ut.dolor@protonmail.org','sed.tortor.integer@yahoo.org'),
+  (106,'mauris@yahoo.org','cursus.integer@icloud.com'),
+  (155,'semper.erat@outlook.com','velit@outlook.com'),
+  (102,'eleifend.non.dapibus@hotmail.org','fermentum.fermentum@yahoo.net'),
+  (194,'malesuada@yahoo.net','sem.elit@hotmail.couk'),
+  (167,'pellentesque@hotmail.com','cras.interdum@google.net');
+INSERT INTO [dbo].[Emails] (UserID,Email_1,Email_2)
+VALUES
+  (169,'tellus@outlook.org','erat@google.edu'),
+  (167,'lobortis.quam.a@hotmail.net','interdum.ligula@yahoo.edu'),
+  (172,'per.inceptos@yahoo.com','sit@outlook.org'),
+  (120,'pede.sagittis.augue@yahoo.org','vehicula.et.rutrum@protonmail.ca'),
+  (184,'ornare.libero.at@icloud.couk','ornare.in@protonmail.org'),
+  (147,'augue@icloud.net','etiam.imperdiet.dictum@outlook.couk'),
+  (155,'pede.suspendisse.dui@icloud.edu','nulla@yahoo.org'),
+  (168,'non.sollicitudin@icloud.org','massa@yahoo.com'),
+  (179,'gravida@hotmail.net','aliquam.nisl@icloud.couk'),
+  (144,'justo.faucibus.lectus@hotmail.org','eu@icloud.com');
+INSERT INTO [dbo].[Emails] (UserID,Email_1,Email_2)
+VALUES
+  (198,'pede@yahoo.org','tempus.mauris@aol.ca'),
+  (176,'sociis.natoque.penatibus@yahoo.com','in.tempus@aol.couk'),
+  (164,'non.feugiat@aol.ca','vitae.orci.phasellus@icloud.net'),
+  (166,'tempus@outlook.ca','phasellus.at@protonmail.com'),
+  (185,'vivamus@icloud.ca','tellus@outlook.com'),
+  (106,'risus.donec@aol.net','mus@icloud.couk'),
+  (123,'mollis.non@icloud.net','accumsan@yahoo.ca'),
+  (189,'vulputate.dui.nec@protonmail.net','sed@aol.net'),
+  (121,'ornare@hotmail.com','vivamus.nibh@outlook.org'),
+  (133,'risus.in@protonmail.ca','nibh.quisque@aol.org');
+INSERT INTO [dbo].[Emails] (UserID,Email_1,Email_2)
+VALUES
+  (156,'vivamus.sit.amet@icloud.org','arcu@outlook.net'),
+  (141,'nibh@outlook.edu','consequat.lectus@yahoo.com'),
+  (128,'magnis.dis.parturient@protonmail.com','fusce.mi@aol.org'),
+  (194,'semper.dui@icloud.ca','eget.dictum.placerat@outlook.org'),
+  (158,'aliquet@icloud.ca','ut.quam.vel@outlook.edu'),
+  (190,'vitae@google.com','nonummy@icloud.ca'),
+  (111,'porttitor.tellus@google.org','risus.at@icloud.com'),
+  (182,'aliquam@aol.edu','amet.diam@aol.edu'),
+  (126,'ligula.nullam@yahoo.com','vitae.mauris@protonmail.couk'),
+  (182,'egestas@aol.edu','ligula.aenean@outlook.com');
+INSERT INTO [dbo].[Emails] (UserID,Email_1,Email_2)
+VALUES
+  (106,'odio.aliquam.vulputate@hotmail.ca','quisque.imperdiet@icloud.com'),
+  (156,'vel.mauris@icloud.couk','porttitor@yahoo.edu'),
+  (190,'nisl.elementum.purus@hotmail.com','non@hotmail.org'),
+  (157,'suspendisse.sed.dolor@hotmail.ca','suspendisse.aliquet@icloud.net'),
+  (181,'risus@aol.ca','augue.porttitor.interdum@google.net'),
+  (139,'arcu.vestibulum@icloud.edu','enim.commodo@icloud.org'),
+  (143,'non.vestibulum@aol.net','feugiat.lorem@aol.edu'),
+  (180,'lorem.ut@yahoo.edu','turpis@google.net'),
+  (164,'ipsum.sodales.purus@aol.ca','dui.nec@outlook.couk'),
+  (158,'eros.non@yahoo.org','augue.id.ante@protonmail.ca');
+INSERT INTO [dbo].[Emails] (UserID,Email_1,Email_2)
+VALUES
+  (111,'ac.mattis@aol.ca','in.ornare.sagittis@google.couk'),
+  (168,'condimentum.eget@icloud.net','fermentum.fermentum.arcu@google.couk'),
+  (126,'erat.vivamus.nisi@protonmail.edu','vitae.risus@aol.net'),
+  (189,'hendrerit.neque.in@outlook.org','est@aol.couk'),
+  (180,'ac@hotmail.com','ipsum@google.org'),
+  (113,'turpis.aliquam@yahoo.net','mus.proin.vel@yahoo.couk'),
+  (168,'congue.a@yahoo.org','adipiscing.fringilla@icloud.couk'),
+  (129,'per@hotmail.edu','et.pede@protonmail.edu'),
+  (103,'vel@google.edu','quam.elementum@protonmail.couk'),
+  (111,'sit.amet@protonmail.net','quisque.nonummy@outlook.couk');
+INSERT INTO [dbo].[Emails] (UserID,Email_1,Email_2)
+VALUES
+  (169,'lacus.aliquam@protonmail.edu','turpis.nec@yahoo.couk'),
+  (109,'mauris.suspendisse@outlook.net','torquent.per@outlook.net'),
+  (186,'dolor@yahoo.couk','dictum@hotmail.com'),
+  (172,'ornare.egestas@outlook.com','lacus.quisque@icloud.org'),
+  (199,'pharetra@icloud.net','pede.cras@protonmail.couk'),
+  (126,'turpis@yahoo.couk','lobortis.mauris.suspendisse@protonmail.net'),
+  (108,'amet.orci.ut@yahoo.org','aliquet.metus@aol.couk'),
+  (166,'dui.cras@icloud.edu','mauris.ut@aol.org'),
+  (143,'ipsum.non@protonmail.couk','pharetra@aol.net'),
+  (195,'nisl.elementum@aol.ca','nullam.lobortis@protonmail.com');
