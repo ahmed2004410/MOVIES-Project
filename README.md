@@ -7,17 +7,17 @@ It covers database design, data modeling, Power BI dashboards, and analytical me
 ---
 
 ## 🗂️ Project Structure
-📁 MOVIES Project
-┣ 📂 DATABASE
-┃ ┣ 📄 Create_Tables.sql # SQL scripts to create and populate tables
-┃ ┗ 📄 Insert_Data.sql # Insert data into Users, Movies, Subscriptions, Ratings...
-┣ 📂 ERD&MODELING
-┃ ┣ 📄 ERD.png # Entity Relationship Diagram
-┃ ┗ 📄 Schema.pdf # Database schema
-┣ 📂 DASHBOARD
-┃ ┣ 📄 Movies_Dashboard.pbix # Power BI dashboard
-┃ ┗ 📄 Measures_DAX.txt # DAX measures used
-┗ 📄 README.md
+- 📁 MOVIES Project
+- ┣ 📂 DATABASE
+- ┃ ┣ 📄 Create_Tables.sql # SQL scripts to create and populate tables
+- ┃ ┗ 📄 Insert_Data.sql # Insert data into Users, Movies, Subscriptions, Ratings...
+- ┣ 📂 ERD&MODELING
+- ┃ ┣ 📄 ERD.png # Entity Relationship Diagram
+- ┃ ┗ 📄 Schema.pdf # Database schema
+- ┣ 📂 DASHBOARD
+- ┃ ┣ 📄 Movies_Dashboard.pbix # Power BI dashboard
+- ┃ ┗ 📄 Measures_DAX.txt # DAX measures used
+- ┗ 📄 README.md
 
 ---
 
